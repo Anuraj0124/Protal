@@ -1,0 +1,28 @@
+.login_container{
+	margin-left:10vw;
+	width:90vw;
+	line-height:3vw;
+}	
+.login_head{
+	margin-top:25vh;
+	font-size: 2.5vw;
+	letter-spacing: 0.2vw;
+}
+.bold{
+	font-weight: bold;
+	color:white;
+}
+.subhead{
+	font-size:1.1vw;
+}
+.txt{
+}
+.txt fieldset{
+	border-color: gray;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 5vw !important; 
+	width: 25vw;
+	height:3vw;
+	border-radius: 15px;
+}
