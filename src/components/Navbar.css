@@ -1,6 +1,7 @@
 .navbar {
   background:  #000;
   height: 10vh;
+  max-width:100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,26 +9,29 @@
   position: sticky;
   z-index: 999;
 }
-.logo{
-  position:relative;
-  margin-left:0.5rem;
-  height:7rem;
 
-}
 .SearchBox{
-  margin-right:10vw;
+  margin-right:4vw;
+  margin-left: -20vw;
+}
+.fa,.far,.fas{
+    color: #fff703 !important;
+}
+.fa-search{
+    color: gray !important;
+    margin-left: 20vw;
+    margin-right: 0;
 }
 .navbar-container {
   display: flex;
   align-items: center;
   height: 5vh;
-  max-width: 1500px;
 }
 
 .navbar-logo {
   color: #fff703;
-  margin-left: 10px;
-  font-size: 4vh;
+  margin-left: 5vw;
+  font-size: 3.5vh;
   cursor: pointer;
   text-decoration: none;
 }
@@ -36,10 +40,10 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 2vw;
   list-style: none;
   text-align: center;
-  width: 80vw;
+  width: 60vw;
   justify-content: end;
 }
 
@@ -48,19 +52,16 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 2vh 2vw;
   height: 100%;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  background: gray ;
   transition: all 0.2s ease-out;
 }
 
 
-.fa,.far,.fas{
-    color: #fff703 !important;
-}
 
 .nav-links-mobile {
   display: none;

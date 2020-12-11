@@ -1,0 +1,16 @@
+.home__hero-row {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-left: -2vw;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.post-head{
+  color:white;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  margin-left : 8vw;
+}
