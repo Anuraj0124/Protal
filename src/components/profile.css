@@ -48,8 +48,10 @@
 }
 .user-col{
   flex: 1;
-  max-width: 45vw;
+  max-width: 50vw;
   flex-basis: 10vw;
+  margin-top: 10vh;
+
 }
 .user-row{
   display: flex;
@@ -57,9 +59,8 @@
   align-content: stretch;
 }
 .user-img{
-  margin-right: 10vw;
-  margin-left: -17.5vw;
-  width: 73vw;
+  margin-left: -22.3vw;
+  width: 71.5vw;
   height: 40vh;
 }
 .user-img img{
@@ -72,6 +73,8 @@
   flex-wrap: wrap ;
   align-content: stretch ;
   margin-top: 2vh ;
+  margin-left:-10vw;
+  margin-bottom: 5vh;
 }
 .content-col i{
   margin-top: 0.6vh;
@@ -98,19 +101,21 @@
   display: flex ;
   flex-wrap: wrap ;
   align-content: stretch ;
-  margin-left: -17vw;
+  margin-left: -34vw;
+  margin-bottom: 3vh;
 }
 .post-img{
   display: flex;
   justify-content: center;
   margin-bottom: 1vh;
   margin-top: 1vh;
-  width: 30vh;
-  height: 25vh;
+  width: 40vh;
+  height: 35vh;
 }
 .post-img-col{
   flex: 1;
-  margin-right: 10vw;
+  /*margin-right: 10vw;*/
+  margin-left: 14vw;
   max-width: 10vw;
   flex-basis: 20vw;
 }
